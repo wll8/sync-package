@@ -1,5 +1,5 @@
 {
-  "name": "sync-package",
+  "name": "@wll8/sync-package",
   "version": "1.0.0",
   "description": "Dynamically install dependencies",
   "main": "index.js",
