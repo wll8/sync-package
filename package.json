@@ -1,0 +1,28 @@
+{
+  "name": "sync-package",
+  "version": "1.0.0",
+  "description": "Dynamically install dependencies",
+  "main": "index.js",
+  "env": {
+    "node": "14.15.5",
+    "yarn": "1.22.19"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wll8/sync-package.git"
+  },
+  "scripts": {
+    "fix": "eslint ./ --fix --format unix",
+    "dev": "nodemon --watch *.js --exec \"node index.js\""
+  },
+  "keywords": [],
+  "author": "xw",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "whatnpm": "^1.0.0"
+  }
+}
