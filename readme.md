@@ -3,7 +3,7 @@ Dynamically install dependencies
 ## use
 
 ```js
-const { initPackge } = require(`sync-package`)
+const { initPackge } = require(`@wll8/sync-package`)
 
 new Promise(async () => {
   const pkg = await initPackge(`lodash`, {

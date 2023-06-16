@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^4.17.21",
-    "sync-package": "../pkg.tgz"
+    "@wll8/sync-package": "../pkg.tgz",
+    "lodash": "^4.17.21"
   }
 }
